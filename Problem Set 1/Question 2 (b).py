@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 31 21:37:50 2021
-
-@author: LENOVO
-"""
-
 # Generate 50 random variables
 a = 4781
 c = 8521
