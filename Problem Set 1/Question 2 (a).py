@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 31 21:32:08 2021
-
-@author: LENOVO
-"""
-
 # Generate the random variables using the LCG
 a = 4781
 c = 8521
