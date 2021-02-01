@@ -1,17 +1,10 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 31 21:38:35 2021
-
-@author: LENOVO
-"""
-
 # Get the 50 random variables generated in part (b)
 a = 4781
 c = 8521
 m = 16384
 Z0 = 1136
 n = 50
-j = 3
+j = 3 # The lag
 Z = Z0
 RVar = [ ]
 for i in range(n):
@@ -27,4 +20,4 @@ print(A_j)
 # Calculate the p-value of this test
 import scipy.stats as st
 # The p-value
-print(2*st.norm.cdf(A_j, 0, 1))
+print(2*(1 - st.norm.cdf(abs(A_j), 0, 1)))
